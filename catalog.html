@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog - Sangjit Mahar Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EDD8D4;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            object-position: center;
+            margin-bottom: 30px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 50px;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 10px;
+            font-family: montserrat;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            margin-bottom: 20px;
+        }
+
+        .banner {
+            width: 100%;
+            max-height: 500px; 
+            object-fit: cover;
+            margin-bottom: 80px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product {
+            width: 20%;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            
+            color: #333;
+        }
+
+        .nominalhargaproduk {
+            margin: 10px 0;
+            text-align: center;
+            font-size: 40px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #FF5733;
+        }
+
+        .product img:hover {
+            transform: scale(1.05);  /* Memberikan efek scaling saat hover */
+        }
+
+        .product img {
+            width: 90%;
+            max-height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            border-radius: 10px;   
+            transition: transform 0.3s ease-in-out;  /* Menambahkan efek transisi */
+        }
+        
+        footer {
+            position: absolute;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .product-container {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .ourproduct {
+            text-align: center;
+            font-family: montserrat;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MAHAR SANGJIT</div>
+        <a href="index.html">HOME</a>
+        <a href="#">LOGIN</a>
+        <a href="catalog.html">CATALOG</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </header>
+
+    <main>
+        <!--<img class="banner" src="catalog-banner.png" alt="Catalog Banner">-->
+        <a class="ourproduct">Catalog</a>
+        <div class="product-container">
+            <a href="produk1.html" class="product">
+                <img src="produk1.png" alt="Product 1">
+                <h3>Nama Paket 1</h3>
+                <p class="nominalhargaproduk">2000K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 2</h3>
+                <p class="nominalhargaproduk">1000K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 3</h3>
+                <p class="nominalhargaproduk">1200K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 4</h3>
+                <p class="nominalhargaproduk">1700K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 5</h3>
+                <p class="nominalhargaproduk">1000K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 6</h3>
+                <p class="nominalhargaproduk">1500K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 7</h3>
+                <p class="nominalhargaproduk">1500K</p>
+            </a>
+            <a href="produk1.html" class="product">
+                <img src="produk2.png" alt="Product 2">
+                <h3>Nama Paket 8</h3>
+                <p class="nominalhargaproduk">1500K</p>
+            </a>
+            <!-- Add more product items as needed -->
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Sangjit Mahar Shop
+    </footer>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Festive Fest 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            position: relative;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #FFf;
+            color: white;
+            height: 70px;
+            padding: 10px;
+            text-align: right;
+            object-position: center;
+            margin-bottom: 30px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            transition: top 0.3s;
+            font-family: Arial;
+            box-shadow: 20 20 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc;
+            justify-content: space-between;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-family: Arial;
+            color: #000000;
+        }
+
+        .logo {
+            text-align: left;
+            margin: 10px;
+            margin-left: 160px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: #FF7F50;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            margin-bottom: 20px;
+            font-family: Arial;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .event-detail {
+            width: 60%;
+            margin-top: 90px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .event-detail img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .event-info {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .event-info h2 {
+            color: #333;
+            font-size: 30px;
+        }
+
+        .event-info p {
+            color: #000000;
+            font-size: 16px;
+            font-weight: 100;
+        }
+
+        .checkout-container {
+            width: 35%;
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #ccc; /* Border added */
+            border-radius: 10px; /* Border radius added */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow added */
+            padding: 20px; /* Padding added */
+
+        }
+
+        .checkout-container h2 {
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-family: Arial;
+        }
+
+        input {
+            width: 450px;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 2px solid #ccc; 
+            border-radius: 5px;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .price-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .nominalhargaproduk {
+            margin: 10px 0;
+            margin-bottom: 20px;
+            text-align: left;
+            font-size: 32px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #FF5733;
+            font-weight: bold;
+            color: #FF5733;
+            font-family: Arial;
+        }
+
+        .buttonmenu {
+            margin-left: 20px;
+            background-color: #FF7F50;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial;
+        }
+
+        .buttonmenu1 {
+            align-content: right;
+            margin-left: 970px;
+            background-color: #FFF;
+            color: black;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial;
+        }
+
+        .buttongrup {
+            display: flex;
+            align-items: center;
+        }
+
+        .event-info .description {
+            color: #808080;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .paybutton {
+            margin-left: 0px;
+            margin-top:20px;
+            background-color: #FF7F50;
+            color: white;
+            padding: 8px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="buttongrup">
+            <div class="logo">Easyticket.com</div>
+            <a class="buttonmenu1" href="login.html">Login</a>
+            <a class="buttonmenu" href="signup.html">Sign up</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="event-detail">
+            <img src="poster1.png" alt="Festive Fest 2024">
+            <div class="event-info">
+                <h2>Festive Fest 2024</h2>
+                <p>Date: November 15, 2024</p>
+                <p>Location: Dodiklatpur Kodam IV Diponegoro | Lapangan Dodiklatpur Klaten</p>
+                <h2>Description</h3>
+                    <p class="description">Siapkan dirimu untuk menyambut sanggar tari ibukota JKT 48 di Kota Klaten !<br><br>
+
+                        Ditemani dengan beberapa artis ibukota lainnya, siap memeriahkan Kota Klaten di ACARA FESTIVE
+                        FEST 13 JANUARI 2024<br><br>
+
+                        BELI TIKET SEKARANG DAN BERGABUNGLAH DALAM KESERUAN FESTIVE FEST !
+                    </p>
+
+                    <!-- Add more event details as needed -->
+            </div>
+            <div>
+                <p class="nominalhargaproduk">200.000</p>
+            </div>
+        </div>
+        <div class="checkout-container">
+            <h2>Tiket User</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <div class="price-container">
+                    <p class="nominalhargaproduk">200.000</p>
+                </div>
+
+                <a class="paybutton" href="payment.html">Pay Now</a>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        Easyticket.com &copy; 2024. All rights reserved
+    </footer>
+</body>
+
+</html>
+
+<?php //pertama kita membuat untuk melakukan koneksinya
+$host = "localhost";
+$user = "root";
+$pass = ""; //karena kita menggunakan xampp biasanya pass kosong
+$db   = "easyticket";
+
+$koneksi = mysqli_connect($host, $user, $pass, $db); //untuk koneksi kita menggunakan fungsi dari mysql. lalu kita masukan parameter untuk melakukan koneksi ke database
+if(!$koneksi){ //cek koneksi
+    die("Gagal Koneksi");
+}
+$nama           ="";
+$nomer_hp       ="";
+$harga_tiket    ="";
+$jumlah_tiket   ="";
+$total_harga    ="";
+$sukses         ="";
+$error          ="";
+
+if(isset($_POST['simpan'])){ //untuk create
+    $nama           = $_POST['nama'];
+    $nomer_hp       = $_POST['nomer_hp'];
+    $harga_tiket    = $_POST['harga_tiket'];
+    $jumlah_tiket   = $_POST['jumlah_tiket'];
+    $total_harga    = $_POST['total_harga'];
+
+    if($nama && $tanggal_lahir && $jenis_tiket && $harga_tiket && $jumlah_tiket && $total_harga){
+        if($op == 'edit'){ //untuk update
+            $sql1 = "update tiket_konser set nama = '$nama',nomer_hp='$nomer_hp',harga_tiket='$harga_tiket',jumlah_tiket='$jumlah_tiket',total_harga='$total_harga'";
+            $q1 = mysqli_query($koneksi,$sql1);
+            if($q1){
+                $sukses = "Data berhasil diupdate";
+            }else{
+                $error = "Data gagal diupdate";
+            }
+        }else{ //untuk insert
+            $sql1 = "insert into tiket_konser(nama,tanggal_lahir,jenis_tiket,harga_tiket,jumlah_tiket,total_harga) values('$nama','$tanggal_lahir','$jenis_tiket','$harga_tiket','$jumlah_tiket','$total_harga')";
+        $q1 = mysqli_query($koneksi,$sql1);
+        if($q1){
+            $sukses = "Berhasil memasukkan data baru";
+        }else{
+           
+         $error = "Gagal memasukkan data";
+        }
+        }
+    }else{
+        $error="Silahkan input semua data";
+    }
+}

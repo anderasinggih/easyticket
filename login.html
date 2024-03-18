@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Easyticket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #aeb3c3;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            object-position: center;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        header .logo {
+            text-align: center;
+            margin: 10px;
+            font-family: montserrat;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        header a {
+            color: white;
+                    text-decoration: none;
+                    margin: 50px;
+                    margin-bottom: 30px;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            margin: 20px auto; /* Mengatur margin atas dan bawah menjadi 20px dan auto, dan menggunakan auto untuk margin samping agar login-container berada di tengah */
+            display: flex;
+            flex-direction: column; /* Menyusun elemen anak secara vertikal */
+            align-items: center; /* Memusatkan elemen anak secara horizontal */
+            margin-top: 100px;
+        }
+
+        .login-container h2 {
+            color: #333;
+            margin-bottom: 20px; /* Menambahkan margin bawah agar terlihat lebih baik */
+            text-decoration: none;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .signup-link,
+        .forgot-password-link {
+            margin-top: 10px;
+            color: #333;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .signup-link a,
+        .forgot-password-link a{
+            text-decoration: none;
+            color: #0078FF;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Easyticket.com</div>
+    </header>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="index.html" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="signup-link">
+            Don't have an account? <a href="signup.html">Signup here</a>.
+        </div>
+
+        <div class="forgot-password-link">
+            <a href="forgot_password.html">Forgot your password?</a>
+        </div>
+    </div>
+</body>
+</html>

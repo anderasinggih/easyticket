@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sangjit Mahar Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EDD8D4;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            object-position: center;
+            margin-bottom: 30px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 50px;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 10px;
+            font-family: montserrat;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .banner {
+            width: 100%;
+            max-height: 500px; 
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+
+        .contact-form {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+
+        .whatsapp-button button{
+            background-color: #25D366;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+
+        }
+
+
+        footer {
+            position: absolute;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MAHAR SANGJIT</div>
+        <a href="index.html">HOME</a>
+        <a href="#">LOGIN</a>
+        <a href="catalog.html">CATALOG</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </header>
+
+    <main>
+        <img class="banner" src="banner.png" alt="Contact Us Banner">
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        
+            <!-- WhatsApp Button -->
+            <div class="whatsapp-button" >
+                <button href="https://wa.me/081229509087" target="_blank">WhatsApp</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Sangjit Mahar Shop
+    </footer>
+</body>
+</html>
